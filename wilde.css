@@ -1,0 +1,17 @@
+h4,h5,h6,p
+{
+    font-size:medium;
+    color:black;
+}
+div StageDirection:hover
+{
+    background-color:lightcyan;
+}
+.ALGERNON
+{
+    color:red;
+}
+.LANE
+{
+    color:blue
+}
