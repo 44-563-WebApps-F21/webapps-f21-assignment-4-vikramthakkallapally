@@ -57,3 +57,31 @@ span h6:hover
     border:brown;
     border-style: dotted; 
 }
+.direction {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .direction a {
+    float: left;
+    padding: 15px;
+    color:black
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .direction a:hover {
+    background-color:rgb(112, 216, 168);
+  }
+  
+  .book {
+      color: white;
+    background-color:black;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
