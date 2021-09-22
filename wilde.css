@@ -1,17 +1,59 @@
-h4,h5,h6,p
+
+p.StageDirection
 {
-    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16;
     color:black;
+    background-color:lightcyan
 }
-.StageDirection:hover
+p.StageDirection:hover
 {
-    background-color:lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16;
+    color:black;
+    background-color:blue;
+}
+.speech{
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 20px;
+    color:red;
 }
 .ALGERNON
 {
-    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: size 15px;
+    color:seagreen;
 }
 .LANE
 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: size 15px;
     color:blue
+}
+table,td,tr
+{
+    border:2px solid brown;
+    color: solid black;
+
+}
+th{
+    border:2px solid blue;
+    color: gold;
+}
+td
+{
+    text-align: center;
+}
+th,td
+{
+    padding-right:40px;
+    padding-left:30px;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+span h6:hover
+{
+    text-shadow:2px 2px;
+    border:brown;
+    border-style: dotted; 
 }
