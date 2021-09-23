@@ -51,11 +51,16 @@ th,td
     padding-bottom: 20px;
     padding-top:10px;
 }
+
+tr:nth-child(even){
+    background-color: cornsilk;
+}
 span h6:hover
 {
-    text-shadow:2px 2px;
-    border:brown;
-    border-style: dotted; 
+    text-shadow:0 0 8px #000;
+    color: transparent;
+    font-size: 40px;
+    border: dotted;
 }
 .direction {
     width: 100%;
@@ -65,7 +70,11 @@ span h6:hover
   .direction a {
     float: left;
     padding: 15px;
-    color:black
+    color:black;
+    background-color: cyan;
+    align-content: center;
+    left: 50%;
+    position: relative;
     text-decoration: none;
     font-size: 18px;
   }
@@ -84,4 +93,8 @@ span h6:hover
       float: none;
       display: block;
     }
+  }
+
+  .icon {
+      float: right;
   }
